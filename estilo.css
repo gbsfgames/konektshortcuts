@@ -1,0 +1,113 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+/*Titulo y subtitulo*/
+.Titulo{
+	font-size: 30px;
+	color: white;
+}
+
+.Subtitulo{
+	font-size: 20px;
+	color: white;
+}
+/* Parte del cuerpo */
+body{
+	background: url("imagenes/wallpaper.jpg");
+	background-size: cover;
+	font-family: Arial;
+
+}
+
+body header{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/*.divbusc{ Contenedor de la seccion del buscador
+	width: 100%;
+}
+
+.divbusc .buscar{ 
+	width: 100%;
+	text-align: center;
+}*/
+body form input{/*Input*/
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding:10px;
+	width: 400px;
+	display: inline-block;
+	border:2px solid #015F08;
+	border-style: double;
+
+}
+
+figure{
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+
+}
+/*Imagen que muestran mis accesos directos*/
+body .acceso{
+	display: block;
+	width: 180px;
+	height: 180px;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+/*clase de imagen a mostrar*/
+.acceso:hover{
+	opacity: 1.0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgba(255,255,255,0.3);
+}
+
+figcaption{
+	margin-top: 5px;
+	display: block;
+	background-color: none;
+	text-align: center;
+	color:#ffffff;
+	font-weight: bold;
+	top:100px;
+
+}
+
+.main{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	/*background-color: rgba(0,0,0,0.2);*/
+	width: 90%;
+
+}
+
+body footer{
+	height: 20px;
+	margin-top: 15px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	font-size: 10px;
+}
+body footer span{
+	text-align: center;
+}
+
+
+body .logo{
+	width: 200px;
+	height: 75px;
+}
+
+input:hover{
+    border:2px solid blue;
+}
