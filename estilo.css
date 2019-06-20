@@ -43,6 +43,7 @@ body form input{/*Input*/
 	border:2px solid #015F08;
 	border-style: double;
 
+
 }
 
 figure{
@@ -85,21 +86,31 @@ figcaption{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-left: auto;
-	/*background-color: rgba(0,0,0,0.2);*/
+	margin-right: auto;
 	width: 90%;
-
+    /*background-color: rgba(0,0,0,0.2);*/
 }
 
 body footer{
+	/*Posicion*/
+	position:fixed;
+	bottom: 0%;
 	height: 20px;
-	margin-top: 15px;
+	width: 100%;
+	margin-top: 100px;
+	/*Texto*/
 	text-align: center;
 	color:white;
 	font-weight: bold;
 	font-size: 10px;
+	/*Fondo*/
+	background: rgba(0,0,0,0.3);
+
 }
 body footer span{
 	text-align: center;
+	position: relative;
+	top: 15%;
 }
 
 
