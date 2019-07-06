@@ -1,3 +1,12 @@
+/********************************
+    Nombre : Konekt Shortcuts
+    Autor : Ben yair
+*********************************/
+/*Mi paleta de colores
+    
+*/
+
+
 *{
 	margin:0px;
 	padding:0px;
@@ -26,6 +35,11 @@ body header{
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+body header .logo{
+	width: 250px;
+	height: 125px;
+}
 /*.divbusc{ Contenedor de la seccion del buscador
 	width: 100%;
 }
@@ -34,7 +48,7 @@ body header{
 	width: 100%;
 	text-align: center;
 }*/
-body form input{/*Input*/
+/*body form input{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding:10px;
@@ -44,19 +58,37 @@ body form input{/*Input*/
 	border-style: double;
 
 
+}*/
+.principal{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+.main{
+	margin-top:40px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding: 40px 20px 80px 20px;
+	width: 80%;
+	border-radius: 20px;
+	background-color: rgba(67,208,165,0.15);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+    /*background-color: rgba(0,0,0,0.2);*/
 }
 
-figure{
-	display: inline-block;
-	margin-left: 10px;
-	margin-bottom: 10px;
+body .main figure{
+	margin-top: 20px;
 	width: 200px;
 	height: 200px;
 	text-align: center;
 
 }
 /*Imagen que muestran mis accesos directos*/
-body .acceso{
+body .main figure .acceso{
 	display: block;
 	width: 180px;
 	height: 180px;
@@ -64,9 +96,9 @@ body .acceso{
 	border-radius: 10px;
 }
 /*clase de imagen a mostrar*/
-.acceso:hover{
+body .main figure .acceso:hover{
 	opacity: 1.0;
-	border-width: 5px;
+	border-width: 2.5px;
 	border-style: solid;
 	border-color: rgba(255,255,255,0.3);
 }
@@ -82,15 +114,44 @@ figcaption{
 
 }
 
-.main{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-    /*background-color: rgba(0,0,0,0.2);*/
+aside{
+	margin-top:40px;
+	with:20%;
+	max-width: 20%;
+	padding: 20px;
+}
+aside p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+aside table{
+	background-color: white;
+	width: 100%;
+}
+aside table td{
+	padding: 2px 4px;
+}
+aside table th{
+    background-color: #0c744d;
+    color: white;
+    padding: 2px 4px;
+}
+aside table tr:hover{
+    background-color: #0c744d;
+    color:white;
+    font-weight: bold;
 }
 
+span{
+	width: 100%;
+	display: inline-block;
+	color:white;
+	text-align: center;
+}
 body footer{
 	/*Posicion*/
 	position:fixed;
@@ -111,12 +172,6 @@ body footer span{
 	text-align: center;
 	position: relative;
 	top: 15%;
-}
-
-
-body .logo{
-	width: 200px;
-	height: 75px;
 }
 
 input:hover{
